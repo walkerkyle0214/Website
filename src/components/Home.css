@@ -1,0 +1,61 @@
+.home-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.text-section {
+  margin-right: 20px; /* Adjust margin for spacing */
+}
+
+h1 {
+  color: white;
+  font-size: 36px; /* Adjust size as needed */
+  font-weight: bold; /* Adjust weight as needed */
+  font-family: "Neuton", serif; /* Adjust font-family as needed */
+}
+
+h2 {
+  color: white;
+  font-size: 16px; /* Adjust size as needed */
+  font-weight: normal; /* Reset font weight */
+  font-style: italic; /* Set font style to italic */
+  font-family: "IBM Plex Mono", monospace; /* Adjust font-family as needed */
+}
+
+.profile {
+  margin-left: 20px; /* Adjust margin for spacing */
+}
+
+.profile-image {
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+}
+
+
